@@ -52,13 +52,13 @@ int main() {
     // ===================================================
     // CAVALO - usando LOOPS (for + while)
     // Movimento em "L":
-    // 2 casas para Baixo
+    // 3 casas para Baixo
     // 1 casa para Esquerda
     // ===================================================
 
     printf("\nMovimento do Cavalo:\n\n");
 
-    int movimentoVertical = 2;
+    int movimentoVertical = 3;
     int movimentoHorizontal = 1;
 
     // Loop externo (FOR obrigatório)
@@ -66,7 +66,7 @@ int main() {
 
         printf("Baixo\n");
 
-        // Quando terminar as 2 casas para baixo,
+        // Quando terminar as 3 casas para baixo,
         // executa o movimento horizontal
         if(i == movimentoVertical){
 
