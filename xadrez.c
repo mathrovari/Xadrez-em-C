@@ -49,5 +49,36 @@ int main() {
     }while(contadorRainha <= casasRainha);
 
 
+    // ===================================================
+    // CAVALO - usando LOOPS (for + while)
+    // Movimento em "L":
+    // 2 casas para Baixo
+    // 1 casa para Esquerda
+    // ===================================================
+
+    printf("\nMovimento do Cavalo:\n\n");
+
+    int movimentoVertical = 2;
+    int movimentoHorizontal = 1;
+
+    // Loop externo (FOR obrigatório)
+    for(int i = 1; i <= movimentoVertical; i++){
+
+        printf("Baixo\n");
+
+        // Quando terminar as 2 casas para baixo,
+        // executa o movimento horizontal
+        if(i == movimentoVertical){
+
+            int contadorHorizontal = 1;
+
+            while(contadorHorizontal <= movimentoHorizontal){
+                printf("Esquerda\n");
+                contadorHorizontal++;
+            }
+
+        }
+    }
+
     return 0;
 }
