@@ -61,7 +61,6 @@ int main() {
     int movimentoVertical = 3;
     int movimentoHorizontal = 1;
 
-    // Loop externo (FOR obrigatório)
     for(int i = 1; i <= movimentoVertical; i++){
 
         printf("Baixo\n");
